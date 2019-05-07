@@ -19,6 +19,4 @@ public class Constant {
     public static String CACHE_TYPE_REDIS ="redis";
 
     public static String LOG_ERROR = "error";
-
-
 }
