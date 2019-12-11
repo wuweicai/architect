@@ -28,7 +28,7 @@
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--日志文件输出的文件名-->
             <!-- 按照每天生成日志文件 -->
-            <FileNamePattern>${LOG_HOME}/jxsc.log.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <FileNamePattern>${LOG_HOME}/eiss.log.%d{yyyy-MM-dd}.log</FileNamePattern>
             <!-- 按照每小时生成日志文件 -->
             <!--<FileNamePattern>${LOG_HOME}/jxsc.log.%d{yyyy-MM-dd-HH}.log</FileNamePattern>-->
             <!--日志文件保留天数-->
@@ -65,7 +65,7 @@
     </logger>
 
     <!-- 日志输出级别 -->
-    <root level="INFO">
+    <root level="info">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
     </root>
